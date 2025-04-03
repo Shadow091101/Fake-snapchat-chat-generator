@@ -33,12 +33,13 @@
     justify-content: space-between;
 }
 .chats{
-    height: 70vh;
+    height: 75vh;
     background-color: black;
 }
 .footer{
-    height: 15vh;
-    background-color: yellow;
+    border-top: 1px solid grey;
+    height: 10vh;
+    background-color: black;
 }
 
 .top-title .left-side{
@@ -108,4 +109,51 @@
 .friend-chat-container{
     border-left: 1px solid blue;
     padding: 4px;
+}
+.type-container{
+    display: flex;
+    height: 80%;
+    background-color: black;
+    width: 100%;
+    /* align-items: center; */
+    padding-top: 10px;
+}
+
+.camera img{
+    height: 80%;
+    width:auto;
+}
+.chatbar{
+    position: relative;
+    display: inline-block;
+    /* justify-content: space-between; */
+    width:55%
+}
+.chatbar input{
+    border-radius: 25px;
+    height: 60%;
+    background-color: #404040;
+    padding-left: 2px;
+    width:100%;
+}
+.microphone img{
+    height: 40%;
+    position: absolute;
+    right:5px;
+    top:14%;
+    
+}
+.emoji img{
+    height: 60%;
+    margin-left: 10px;
+}
+
+.photos img{
+    height: 60%;
+    margin-left: 10px;
+}
+
+.location img{
+    height: 60%;
+    margin-left: 10px;
 }
